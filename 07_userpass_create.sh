@@ -3,7 +3,7 @@ set -o xtrace
 export VAULT_ADDR=http://localhost:8200
 export VAULT_TOKEN=root
 export VAULT_NAMESPACE=
-export VAULT_USER="kapil"
+export VAULT_USER="raymond"
 export VAULT_PASSWORD="secret"
 #enable userpass to create an authentication method for creating and managing the certificates
 vault auth enable userpass

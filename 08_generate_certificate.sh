@@ -2,7 +2,7 @@
 set -o xtrace
 export VAULT_ADDR=http://localhost:8200
 #set roleid and secretid as env variables from the previous step
-export VAULT_USER="kapil"
+export VAULT_USER="raymond"
 export VAULT_PASSWORD="secret"
 
 vault login -format=json -method=userpass \
