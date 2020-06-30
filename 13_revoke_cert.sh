@@ -10,4 +10,5 @@ echo $cert1
 vault write pki_int/revoke serial_number=${cert1}
 
 #read the revoked certificate 
-vault read  pki_int/cert/${cert1}
+#vault read  pki_int/cert/
+
