@@ -1,10 +1,10 @@
 #!/bin/sh
 set -o xtrace
 
-# Start docker
+# start docker
+systemctl start docker
 
 #stop and remove vault containers if already running
-
 
 docker stop vault-demo-vault
 docker rm vault-demo-vault

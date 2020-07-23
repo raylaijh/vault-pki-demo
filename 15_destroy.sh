@@ -1,8 +1,8 @@
 #!/bin/sh
 set -o xtrace
 #stop and remove vault containers if running
-podman stop vault-demo-vault webserver 
-podman rm vault-demo-vault webserver
+docker stop vault-demo-vault webserver 
+docker rm vault-demo-vault webserver
 
 #delete all generated files
 rm pki-ca-root.json
